@@ -5,6 +5,8 @@
     
 一个小练习，里面已经包含了HTML、CSS、JavaScript之间的联动。
 
+[课程地址](http://ife.baidu.com/course/detail/id/28)
+
 
 ### 知识点
 
