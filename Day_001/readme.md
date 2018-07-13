@@ -1,7 +1,7 @@
 ### About
 
 这大概是第一天的学习代码吧。虽然课程文中也说了，有基础的可以忽略这个练习。
-![测试图片](\resource\canIgnore.png)
+![忽略图片](https://raw.githubusercontent.com/Chenstyle/IFELearning/master/Day_001/resource/canIgnore.png)
     
 一个小练习，里面已经包含了HTML、CSS、JavaScript之间的联动。
 
