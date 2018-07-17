@@ -10,11 +10,44 @@ p {
     font-size: 1em;     /* 字体大小 */
     text-align: left;   /* 设置字体水平对齐方式 */
     text-decoration: underline; /* 文本修饰（下划线，斜体，粗体，删除线……等等），颜色同定义的color一样 */
-    text-indent: 1em;   /* 首行缩进 */
+    text-indent: 0em;   /* 首行缩进 */
     line-height: 1.5em;   /* 设置行高 */
     text-shadow: 1px 1px 1px #330000; /* 设置字体阴影 */
 }
 
 h5 {
-    background-color: yellow;
+    background: yellow url(http://www.w3school.com.cn/i/eg_bg_03.gif) no-repeat fixed top left; /* 在一个声明中设置所有的背景属性 */
+    background-color: yellow;   /* 背景颜色 */
+    background-image: url(http://www.w3school.com.cn/i/eg_bg_03.gif);   /* 背景图片 */
+    background-repeat: repeat;  /* 背景图片重复（平铺，X轴重复，Y轴重复） */
+    background-position: left top;  /* 背景图像的起始位置，可以按照方位设置，也可以使用绝对坐标 */
+
 }
+
+p.base_information {
+    border: 3px solid red; /* 所有边框在一个声明之中 */
+    border-color: red; /* 边框颜色，一般不单独使用，会不生效 */
+    border-style: solid; /* 设置边框的样式 */
+    border-width: 2px; /* 边框宽度 */
+    border-top: 1px solid red; /* 顶部边框（注意参数要写全，否则不生效） */
+    border-bottom: 1px dashed blue; /* 底部边框 */
+    border-left: 2px solid yellow; /* 左边边框 */
+    border-right: 2px dashed darkblue; /* 右边边框 */
+}
+
+ul.weapon {
+    list-style: square outside none; /* 简写属性。用于把所有用于列表的属性设置于一个声明中。 */
+}
+
+ul.skill {
+    list-style-type: decimal; /* 设置列表项标志的类型。 */
+}
+
+ul.post {
+    list-style-image: url(http:www.w3school.com.cn/i/eg_arrow.gif);
+}
+
+a:link {color:#FF0000;}    /* 未被访问的链接 */
+a:visited {color:#00FF00;} /* 已被访问的链接 */
+a:hover {color:#FF00FF;}   /* 鼠标指针移动到链接上 */
+a:active {color:#0000FF;}  /* 正在被点击的链接 */
