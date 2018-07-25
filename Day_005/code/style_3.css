@@ -1,0 +1,56 @@
+b {
+    margin-left: 1em;
+    margin-right: 0.5em;
+}
+
+p > b:nth-of-type(1) {
+    margin-left: 0em;
+}
+
+/* 使用公式 (an + b)。描述：表示周期的长度，n 是计数器（从 0 开始），b 是偏移值。 */
+div:nth-of-type(n + 3) b {
+    margin-left: 0em;
+    margin-right: 0em;
+}
+
+div:nth-of-type(n + 3) br:nth-of-type(1) {
+    display: none;
+}
+
+div:nth-of-type(n + 3) br:nth-of-type(n + 3) {
+    display: none;
+}
+
+h1 {
+    background-color: #858585;
+    padding-left: 30px;
+    color: white;
+    height: 80px;
+    line-height: 80px;
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+
+div {
+    clear: both;
+    height: 120px;
+    border: #E9E9E9 solid thin;
+
+}
+
+h2 {
+    margin-right: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 120px;
+    line-height: 120px;
+    background-color: #D6D6D6;
+    float: left;
+}
+
+body {
+    padding: 30px;
+}
