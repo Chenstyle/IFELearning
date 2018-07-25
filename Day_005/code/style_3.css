@@ -7,6 +7,10 @@ p > b:nth-of-type(1) {
     margin-left: 0em;
 }
 
+p {
+    margin-top: 10px;
+}
+
 /* 使用公式 (an + b)。描述：表示周期的长度，n 是计数器（从 0 开始），b 是偏移值。 */
 div:nth-of-type(n + 3) b {
     margin-left: 0em;
